@@ -20,8 +20,8 @@ s.author = { "Fernando Henrique" => "fernando@owldeveloper.com" }
 s.homepage = "https://owldeveloper.com.br"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/TheCodedSelf/RWPickFlavor.git", 
-             :tag => "#{s.version}" }
+# s.source = { :git => "https://github.com/TheCodedSelf/RWPickFlavor.git", 
+#             :tag => "#{s.version}" }
 
 # 7
 s.framework = "UIKit"
@@ -29,10 +29,10 @@ s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "fernandoSpecs/**/*.{swift}"
+# s.source_files = "fernandoSpecs/**/*.{swift}"
 
 # 9
-s.resources = "fernandoSpecs/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+# s.resources = "fernandoSpecs/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
