@@ -20,8 +20,8 @@ s.author = { "Fernando Henrique" => "fernando@owldeveloper.com" }
 s.homepage = "https://owldeveloper.com.br"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-# s.source = { :git => "https://github.com/TheCodedSelf/RWPickFlavor.git", 
-#             :tag => "#{s.version}" }
+s.source = { :git => "https://github.com/fernando-owlapps/FernandoApp.git", 
+            :tag => "#{s.version}" }
 
 # 7
 s.framework = "UIKit"
