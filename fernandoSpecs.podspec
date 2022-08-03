@@ -2,13 +2,11 @@ Pod::Spec.new do |s|
     s.name = "fernandoSpecs" 
     s.version = "0.0.1" 
     s.summary = "Uma breve descrição do projeto fernandoSpecs." 
-    s.description = <<-DESC 
-    Uma descrição estendida do projeto fernandoSpecs. 
-    DESC 
+    s.description = "aaaaaaa" 
     s.homepage = " http://www.owldeveloper.com.br " 
-    s.license = { :type => 'Copyright', :text => <<-LICENSE 
+    s.license = { :type => 'Copyright', :text => "bbbbbb" 
                    Copyright 2022 
-                   Permission is grant to... 
+                   Permission "asdasd"
                   LICENSE 
                 } 
     s. author = { "Fernando Henrique" => "Fernando Henrique" } 
