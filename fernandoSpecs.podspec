@@ -1,19 +1,40 @@
-Pod::Spec.new do |s| 
-    s.name = "fernandoSpecs" 
-    s.version = "0.0.1" 
-    s.summary = "Uma breve descrição do projeto fernandoSpecs." 
-    s.description = "aaaaaaa" 
-    s.homepage = " http://www.owldeveloper.com.br " 
-    s.license = { :type => 'Copyright', :text => "bbbbbb" 
-                   Copyright 2022 
-                   Permission "asdasd"
-                  LICENSE 
-                } 
-    s. author = { "Fernando Henrique" => "Fernando Henrique" } 
-    s.source = { :
-    s.source_files = "fernandoSpecs/**/*.swift" 
-    s.resources = "fernandoSpecs/**/*.xib" 
-    s.platform = :ios 
-    s.swift_version = "4.2" 
-    s.ios.deployment_target = '12.0' 
+Pod::Spec.new do |s|
+
+# 1
+s.platform = :ios
+s.ios.deployment_target = '12.0'
+s.name = "fernandoSpecs"
+s.summary = "fernandoSpecs lets a user select an ice cream flavor."
+s.requires_arc = true
+
+# 2
+s.version = "0.1.0"
+
+# 3
+s.license = { :type => "MIT", :file => "LICENSE" }
+
+# 4 - Replace with your name and e-mail address
+s.author = { "Fernando Henrique" => "fernando@owldeveloper.com" }
+
+# 5 - Replace this URL with your own GitHub page's URL (from the address bar)
+s.homepage = "https://owldeveloper.com.br"
+
+# 6 - Replace this URL with your own Git URL from "Quick Setup"
+s.source = { :git => "https://github.com/TheCodedSelf/RWPickFlavor.git", 
+             :tag => "#{s.version}" }
+
+# 7
+s.framework = "UIKit"
+s.dependency 'Alamofire', '~> 4.7'
+s.dependency 'MBProgressHUD', '~> 1.1.0'
+
+# 8
+s.source_files = "fernandoSpecs/**/*.{swift}"
+
+# 9
+s.resources = "fernandoSpecs/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+
+# 10
+s.swift_version = "4.2"
+
 end
